@@ -18,3 +18,21 @@ public class ExtraChicken extends ToppingDecorator{
         return basePizza.getDescription()+" + Extra Chicken";
     }
 }
+//
+//
+//public class ExtraChicken implements BasePizza{
+//    private BasePizza basePizza;// code duplication in every Toppings class so we use abstract class
+//    public ExtraChicken(BasePizza basePizza){
+//        this.basePizza=basePizza;
+//    }
+//
+//    @Override
+//    public int getCost() {
+//        return 0;
+//    }
+//
+//    @Override
+//    public String getDescription() {
+//        return "";
+//    }
+//}
